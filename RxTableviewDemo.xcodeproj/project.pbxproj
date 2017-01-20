@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		4B4A1D021E3067EA00E4EF3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4A1D011E3067EA00E4EF3B /* AppDelegate.swift */; };
-		4B4A1D041E3067EA00E4EF3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4A1D031E3067EA00E4EF3B /* ViewController.swift */; };
-		4B4A1D071E3067EA00E4EF3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A1D051E3067EA00E4EF3B /* Main.storyboard */; };
 		4B4A1D091E3067EA00E4EF3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A1D081E3067EA00E4EF3B /* Assets.xcassets */; };
 		4B4A1D0C1E3067EA00E4EF3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A1D0A1E3067EA00E4EF3B /* LaunchScreen.storyboard */; };
+		4B4A1D141E3075C100E4EF3B /* NetClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4A1D131E3075C100E4EF3B /* NetClient.swift */; };
+		4B4A1D161E3091BA00E4EF3B /* TopicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4A1D151E3091BA00E4EF3B /* TopicListViewController.swift */; };
+		4B4A1D181E3091DF00E4EF3B /* TopicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4A1D171E3091DF00E4EF3B /* TopicListViewModel.swift */; };
+		4B4A1D1A1E30933100E4EF3B /* TopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4A1D191E30933100E4EF3B /* TopicModel.swift */; };
+		4B4A1D1C1E309E9300E4EF3B /* TopicApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4A1D1B1E309E9300E4EF3B /* TopicApi.swift */; };
+		4B4A1D1E1E30A0F400E4EF3B /* Array+Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4A1D1D1E30A0F400E4EF3B /* Array+Mapper.swift */; };
+		FEF1275341825119D76CF15F /* Pods_RxTableviewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C83717690F216F3F5A6796 /* Pods_RxTableviewDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B4A1CFE1E3067EA00E4EF3B /* RxTableviewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxTableviewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4A1D011E3067EA00E4EF3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B4A1D031E3067EA00E4EF3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B4A1D061E3067EA00E4EF3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B4A1D081E3067EA00E4EF3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B4A1D0B1E3067EA00E4EF3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B4A1D0D1E3067EA00E4EF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4A1D131E3075C100E4EF3B /* NetClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetClient.swift; sourceTree = "<group>"; };
+		4B4A1D151E3091BA00E4EF3B /* TopicListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicListViewController.swift; sourceTree = "<group>"; };
+		4B4A1D171E3091DF00E4EF3B /* TopicListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicListViewModel.swift; sourceTree = "<group>"; };
+		4B4A1D191E30933100E4EF3B /* TopicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicModel.swift; sourceTree = "<group>"; };
+		4B4A1D1B1E309E9300E4EF3B /* TopicApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicApi.swift; sourceTree = "<group>"; };
+		4B4A1D1D1E30A0F400E4EF3B /* Array+Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Mapper.swift"; sourceTree = "<group>"; };
+		E673372C9E73EEDC24C89E82 /* Pods-RxTableviewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTableviewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxTableviewDemo/Pods-RxTableviewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E6C83717690F216F3F5A6796 /* Pods_RxTableviewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxTableviewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E839876AB6C43E9A162AD8 /* Pods-RxTableviewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTableviewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxTableviewDemo/Pods-RxTableviewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF1275341825119D76CF15F /* Pods_RxTableviewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				4B4A1D001E3067EA00E4EF3B /* RxTableviewDemo */,
 				4B4A1CFF1E3067EA00E4EF3B /* Products */,
+				D03F145362D4466F343557A2 /* Pods */,
+				6FBC71DFB4756692AAF1256A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +70,34 @@
 			isa = PBXGroup;
 			children = (
 				4B4A1D011E3067EA00E4EF3B /* AppDelegate.swift */,
-				4B4A1D031E3067EA00E4EF3B /* ViewController.swift */,
-				4B4A1D051E3067EA00E4EF3B /* Main.storyboard */,
+				4B4A1D151E3091BA00E4EF3B /* TopicListViewController.swift */,
+				4B4A1D171E3091DF00E4EF3B /* TopicListViewModel.swift */,
+				4B4A1D191E30933100E4EF3B /* TopicModel.swift */,
+				4B4A1D1B1E309E9300E4EF3B /* TopicApi.swift */,
+				4B4A1D131E3075C100E4EF3B /* NetClient.swift */,
+				4B4A1D1D1E30A0F400E4EF3B /* Array+Mapper.swift */,
 				4B4A1D081E3067EA00E4EF3B /* Assets.xcassets */,
 				4B4A1D0A1E3067EA00E4EF3B /* LaunchScreen.storyboard */,
 				4B4A1D0D1E3067EA00E4EF3B /* Info.plist */,
 			);
 			path = RxTableviewDemo;
+			sourceTree = "<group>";
+		};
+		6FBC71DFB4756692AAF1256A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6C83717690F216F3F5A6796 /* Pods_RxTableviewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D03F145362D4466F343557A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7E839876AB6C43E9A162AD8 /* Pods-RxTableviewDemo.debug.xcconfig */,
+				E673372C9E73EEDC24C89E82 /* Pods-RxTableviewDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B4A1D101E3067EA00E4EF3B /* Build configuration list for PBXNativeTarget "RxTableviewDemo" */;
 			buildPhases = (
+				A30F7ED2C15716F05A8E815C /* [CP] Check Pods Manifest.lock */,
 				4B4A1CFA1E3067EA00E4EF3B /* Sources */,
 				4B4A1CFB1E3067EA00E4EF3B /* Frameworks */,
 				4B4A1CFC1E3067EA00E4EF3B /* Resources */,
+				1CBFCB5096DBCBF70D870AEB /* [CP] Embed Pods Frameworks */,
+				18EB5B741617FE796C3FFDBD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +135,7 @@
 				TargetAttributes = {
 					4B4A1CFD1E3067EA00E4EF3B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J72447MAW3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,33 +165,77 @@
 			files = (
 				4B4A1D0C1E3067EA00E4EF3B /* LaunchScreen.storyboard in Resources */,
 				4B4A1D091E3067EA00E4EF3B /* Assets.xcassets in Resources */,
-				4B4A1D071E3067EA00E4EF3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18EB5B741617FE796C3FFDBD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxTableviewDemo/Pods-RxTableviewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CBFCB5096DBCBF70D870AEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxTableviewDemo/Pods-RxTableviewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A30F7ED2C15716F05A8E815C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B4A1CFA1E3067EA00E4EF3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B4A1D041E3067EA00E4EF3B /* ViewController.swift in Sources */,
+				4B4A1D1E1E30A0F400E4EF3B /* Array+Mapper.swift in Sources */,
+				4B4A1D1A1E30933100E4EF3B /* TopicModel.swift in Sources */,
+				4B4A1D141E3075C100E4EF3B /* NetClient.swift in Sources */,
+				4B4A1D1C1E309E9300E4EF3B /* TopicApi.swift in Sources */,
 				4B4A1D021E3067EA00E4EF3B /* AppDelegate.swift in Sources */,
+				4B4A1D181E3091DF00E4EF3B /* TopicListViewModel.swift in Sources */,
+				4B4A1D161E3091BA00E4EF3B /* TopicListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4B4A1D051E3067EA00E4EF3B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B4A1D061E3067EA00E4EF3B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B4A1D0A1E3067EA00E4EF3B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -258,9 +342,12 @@
 		};
 		4B4A1D111E3067EA00E4EF3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E839876AB6C43E9A162AD8 /* Pods-RxTableviewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J72447MAW3;
 				INFOPLIST_FILE = RxTableviewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.garry.RxTableviewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +357,12 @@
 		};
 		4B4A1D121E3067EA00E4EF3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E673372C9E73EEDC24C89E82 /* Pods-RxTableviewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J72447MAW3;
 				INFOPLIST_FILE = RxTableviewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.garry.RxTableviewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +389,7 @@
 				4B4A1D121E3067EA00E4EF3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
